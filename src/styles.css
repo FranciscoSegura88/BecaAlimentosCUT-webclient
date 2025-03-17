@@ -2,4 +2,14 @@
 
 :root{
   font-family: monospace;
+  --white_greekvilla: #F0EBE3;
+  --white_onwhite: #EDEFEF;
+  --white_rose: #FFFAFA;
+  --white_dove: #F0EFE7;
+  --titan_white: #EEEEFF;
+
+
+}
+body {
+  background-color: var(--white_rose);
 }
