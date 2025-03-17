@@ -1,3 +1,3 @@
 # BecaAlimentosCUTWebclient
 
-![Logo de mi proyecto](images/BecasAlimentoCUT.png)
+![Diagrama del proyecto](BecasAlimentoCUT.png)
