@@ -5,6 +5,7 @@ import { SwitchModoComponent } from '../switch-modo/switch-modo.component';
 @Component({
   selector: 'app-header',
   imports: [SwitchModoComponent],
+  standalone: true,
   templateUrl: './header.component.html',
   styleUrl: './header.component.css'
 })
