@@ -10,5 +10,5 @@ import { SwitchModoComponent } from '../switch-modo/switch-modo.component';
   styleUrl: './header.component.css'
 })
 export class HeaderComponent {
-
+  
 }
