@@ -1,15 +1,30 @@
 @import "tailwindcss";
 
-:root{
+:root {
   font-family: monospace;
   --white_greekvilla: #F0EBE3;
   --white_onwhite: #EDEFEF;
   --white_rose: #FFFAFA;
   --white_dove: #F0EFE7;
   --titan_white: #EEEEFF;
-
-
+  
+  /* Colores para tema claro */
+  --background: var(--white_rose);
+  --text: #333333;
+  --border: #cccccc;
 }
+
+/* Definición de colores para tema oscuro */
+.dark-mode {
+  --background: #1a1a1a;
+  --text: #f0f0f0;
+  --border: #444444;
+  
+  color: var(--text);
+}
+
 body {
-  background-color: var(--white_rose);
+  background-color: var(--background);
+  color: var(--text);
+  transition: background-color 0.3s, color 0.3s;
 }
